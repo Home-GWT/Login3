@@ -1,7 +1,7 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
              xmlns:gwt='urn:import:com.google.gwt.user.client.ui'
-             xmlns:res="urn:with:com.tutorialspoint.client.LoginResources">
-    <ui:with field="res" type="com.tutorialspoint.client.LoginPageResources" />
+             xmlns:res="urn:with:com.tutorialspoint.client.view.LoginResources">
+    <ui:with field="res" type="com.tutorial.client.view.LoginPageResources" />
     <gwt:HTMLPanel>
         <div align="center">
             <gwt:VerticalPanel res:styleName="{res.style.background}">

@@ -1,7 +1,7 @@
-package com.tutorialspoint.server;
+package com.tutorial.server;
 
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
-import com.tutorialspoint.client.MainPageService;
+import com.tutorial.client.MainPageService;
 
 public class MainPageServiceImpl extends RemoteServiceServlet implements MainPageService {
     // Implementation of sample interface method

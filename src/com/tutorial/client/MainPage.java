@@ -1,7 +1,8 @@
-package com.tutorialspoint.client;
+package com.tutorial.client;
 
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.user.client.ui.RootPanel;
+import com.tutorial.client.view.LoginPage;
 
 /**
  * {@link http://www.tutorialspoint.com/gwt/gwt_uibinder.htm}
