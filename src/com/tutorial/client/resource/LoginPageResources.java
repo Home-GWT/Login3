@@ -15,6 +15,6 @@ public interface LoginPageResources extends ClientBundle {
         String background();
     }
 
-    @Source("LoginPage.css")
+    @Source("css/style.css")
     MyCSS style();
 }
