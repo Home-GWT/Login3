@@ -4,8 +4,8 @@ import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 
-@RemoteServiceRelativePath("LoginPageService")
-public interface LoginPageService extends RemoteService {
+@RemoteServiceRelativePath("Service")
+public interface LoginService extends RemoteService {
     // Sample interface method of remote interface
     String getMessage(String msg);
 
@@ -14,8 +14,8 @@ public interface LoginPageService extends RemoteService {
      * Use MainPageService.App.getInstance() to access static instance of MainPageServiceAsync
      */
     public static class App {
-        private static LoginPageServiceAsync ourInstance = GWT.create(LoginPageService.class);
-        public static synchronized LoginPageServiceAsync getInstance() {
+        private static LoginServiceAsync ourInstance = GWT.create(LoginService.class);
+        public static synchronized LoginServiceAsync getInstance() {
             return ourInstance;
         }
     }

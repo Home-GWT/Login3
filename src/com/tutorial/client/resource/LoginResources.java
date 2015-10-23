@@ -3,7 +3,7 @@ package com.tutorial.client.resource;
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.CssResource;
 
-public interface LoginPageResources extends ClientBundle {
+public interface LoginResources extends ClientBundle {
     /**
      * Sample CssResource.
      */
@@ -15,6 +15,6 @@ public interface LoginPageResources extends ClientBundle {
         String background();
     }
 
-    @Source("css/LoginPage.css")
+    @Source("css/Login.css")
     MyCSS style();
 }

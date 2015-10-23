@@ -12,9 +12,9 @@ import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.Widget;
-import com.tutorial.client.resource.LoginPageResources;
+import com.tutorial.client.resource.LoginResources;
 
-public class LoginPage extends Composite {
+public class LoginView extends Composite {
 
     private static LoginUiBinder uiBinder = GWT.create(LoginUiBinder.class);
 
@@ -23,14 +23,14 @@ public class LoginPage extends Composite {
     * to be used for the same widget.
     * Default file loaded will be <class-name>.ui.xml
     */
-    @UiTemplate("LoginPage.ui.xml")
-    interface LoginUiBinder extends UiBinder<Widget, LoginPage> {}
+    @UiTemplate("LoginView.ui.xml")
+    interface LoginUiBinder extends UiBinder<Widget, LoginView> {}
 
     @UiField(provided = true)
-    final LoginPageResources res;
+    final LoginResources res;
 
-    public LoginPage() {
-        this.res = GWT.create(LoginPageResources.class);
+    public LoginView() {
+        this.res = GWT.create(LoginResources.class);
         res.style().ensureInjected();
         initWidget(uiBinder.createAndBindUi(this));
     }
