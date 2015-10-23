@@ -7,10 +7,10 @@
 
     <servlet>
         <servlet-name>com.tutorialspoint.MainPage MainPageService</servlet-name>
-        <servlet-class>com.tutorial.server.MainPageServiceImpl</servlet-class>
+        <servlet-class>com.tutorial.server.LoginPageServiceImpl</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>com.tutorialspoint.MainPage MainPageService</servlet-name>
-        <url-pattern>/MainPage/MainPageService</url-pattern>
+        <url-pattern>/MainPage/LoginPageService</url-pattern>
     </servlet-mapping>
 </web-app>
