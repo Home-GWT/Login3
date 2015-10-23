@@ -6,11 +6,11 @@
            version="3.0">
 
     <servlet>
-        <servlet-name>com.tutorialspoint.MainPage MainPageService</servlet-name>
+        <servlet-name>LoginPage</servlet-name>
         <servlet-class>com.tutorial.server.LoginPageServiceImpl</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>com.tutorialspoint.MainPage MainPageService</servlet-name>
-        <url-pattern>/MainPage/LoginPageService</url-pattern>
+        <servlet-name>LoginPage</servlet-name>
+        <url-pattern>/LoginPage/LoginPageService</url-pattern>
     </servlet-mapping>
 </web-app>
